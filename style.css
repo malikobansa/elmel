@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    border: 1px solid #ddd;
+    height: 39px;
+    margin-top: -10px;
+    margin-left: -10px;
+    width:1242px;
+}
+
+header ul{
+    margin-top: -1.0px;
+    display: flex;
+}
+
+header ul  a li{
+    list-style-type: none;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #ddd;
+}
+
+header ul  a li:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 50px;
+}
+
+.list{
+    margin-left: 700px;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.head{
+    width: 400px;
+    font-size: 15px;
+    color: #000;
+    list-style: none;
+}
+
+.head a{
+    text-decoration: none;
+    color: #000;
+}
+
+.unlist{
+    margin-top: 20px;
+}
+
+.mail{
+    font-size: 40px;
+    border: 3px solid #ddd;
+    padding: 10px;
+}
+
+ 
+.text li{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 65%;
+    background-color: #2f1d58;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column;
+}
